@@ -1,0 +1,30 @@
+/* Additional custom styles */
+
+.container {
+  @apply mx-auto px-4 py-6;
+}
+
+.card {
+  @apply bg-blue-50 border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out;
+  /* Add color to the card */
+}
+
+.cardContent {
+  @apply p-6;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.cardTitle {
+  @apply text-2xl font-bold mb-2;
+}
+
+.cardText {
+  @apply text-gray-700;
+}
+
+.scrollableContainer {
+  @apply sticky top-0;
+  max-height: 70vh;
+  overflow-y: auto;
+}

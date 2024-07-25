@@ -1,0 +1,54 @@
+# Node modules
+/node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Dependency directories
+/server/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Build directories
+/dist/
+/build/
+/coverage/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+*.dockerfile
+
+# Sequelize migration and seed files
+/server/migrations/*.js
+/server/seeders/*.js
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor directories
+.vscode/
+.idea/
+
+# Next.js build output
+/client/node_modules/
+/client/.next/
+client/out/
+
+# Static files
+/client/public/static/
+
+# Runtime files
+pids/
+*.pid
+
+# Temporary files
+*.tmp
+
+# Backup files
+*.bak
+*.swp
