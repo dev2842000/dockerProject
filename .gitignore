@@ -1,9 +1,6 @@
 # Node modules
 /node_modules/
 
-# Environment variables
-.env
-
 # Log files
 *.log
 
@@ -17,10 +14,6 @@
 /build/
 /coverage/
 
-# Docker files
-Dockerfile
-docker-compose.yml
-*.dockerfile
 
 # Sequelize migration and seed files
 /server/migrations/*.js
